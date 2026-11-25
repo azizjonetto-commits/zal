@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #F4F6F8;
+}
+
+.tarif {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  padding: 80px 0px;
+}
+.tarif_title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1E1E2F;
+}
+.tarif_text {
+  font-size: 16px;
+  color: #9AA0A6;
+  margin-bottom: 40px;
+}
+.tarif_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.tarif_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+.tarif_card-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.tarif_card-narx {
+  font-size: 32px;
+  font-weight: 700;
+  color: #FF6B00;
+}
+.tarif_card-narx2 {
+  font-size: 14px;
+  color: #9AA0A6;
+}
+.tarif_card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.tarif_card-text2 {
+  color: #9AA0A6;
+  text-decoration: line-through;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.tarif_card-btn {
+  width: 100%;
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 2px solid #FF6B00;
+}
+.tarif_card-btn:hover {
+  background-color: orange;
+  color: white;
+}
+.tarif_card:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 8px;
+  transition: all 0.3s;
+}
+.tarif_card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #1E1E2F;
+  color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+.tarif_card2-yorliq {
+  background-color: #FF6B00;
+  color: white;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  position: absolute;
+  top: -14px;
+}
+.tarif_card2-btn {
+  width: 100%;
+  display: block;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  background-color: #FF6B00;
+}
+.tarif_card2-btn:hover {
+  background-color: #ea6709;
+  opacity: 0.85;
+}
+.tarif_card2:hover {
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 8px;
+  transition: all 0.3s;
+}/*# sourceMappingURL=style.css.map */

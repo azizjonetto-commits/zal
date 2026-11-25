@@ -1,0 +1,141 @@
+.tarif
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 80px 0px;
+    &_title
+    {
+        font-size: 36px;
+        font-weight: 700;
+        color: #1E1E2F;
+    }
+    &_text
+    {
+        font-size: 16px;
+        color: #9AA0A6;
+        margin-bottom: 40px;
+    }
+    &_box
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+    &_card
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+        padding: 32px;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+        &-title
+        {
+            font-size: 22px;
+            font-weight: 700;
+        }
+        &-narx
+        {
+            font-size: 32px;
+            font-weight: 700;
+            color: #FF6B00;
+        }
+        &-narx2
+        {
+            font-size: 14px;
+            color: #9AA0A6;
+        }
+        &-text
+        {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        &-text2
+        {
+            color: #9AA0A6;
+            text-decoration: line-through;
+            font-size: 16px;
+            margin-bottom: 10px;    
+        }
+        &-btn
+        {
+            width: 100%;
+            display: block;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 600;
+            border: 2px solid #FF6B00;
+
+            &:hover
+            {
+                background-color: orange;
+                color: white;
+            }
+        }
+
+        &:hover
+        {
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+            margin-bottom: 8px;
+            transition: all 0.3s;
+        }
+    }
+    &_card2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+        padding: 32px;
+        border-radius: 16px;
+        background-color: #1E1E2F;
+        color: white;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        position: relative;
+
+        &-yorliq
+        {
+            background-color: #FF6B00;
+            color: white;
+            font-size: 12px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            position: absolute;
+            top: -14px;
+        }
+        &-btn
+        {
+            width: 100%;
+            display: block;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 600;
+            border: none;
+            background-color: #FF6B00;
+
+            &:hover
+            {
+                background-color: #ea6709;
+                opacity: 0.85;
+            }
+            
+        }
+        &:hover
+        {
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+            margin-bottom: 8px;
+            transition: all 0.3s;
+        }
+    }
+}
